@@ -1,0 +1,15 @@
+.video-file{
+    width: 40rem;
+    height: 30rem;
+    display: block;
+    margin: auto;
+    
+}
+
+.description{
+    margin: 1rem 30rem 0 30rem;
+}
+
+.createdby{
+    margin: 1rem 30rem 0 30rem;
+}

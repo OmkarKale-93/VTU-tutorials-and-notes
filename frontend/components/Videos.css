@@ -1,0 +1,27 @@
+.videos-container{
+    position: relative;
+    top: 5rem;
+    left: 8rem;
+    max-width: 100%;
+}
+
+.thumbnail{
+    min-width: 300px;
+    min-height: 30px;
+    max-height: 250px;
+}
+
+.each-vid{
+    display: inline-block;
+    margin-left: 3rem;
+    /* border: 1px solid rgb(254, 174, 174); */
+    margin-bottom: 4px;
+    border-radius: 20px;
+    box-shadow: rgb(246, 160, 160);
+}
+
+.each-vid:hover{
+    box-shadow: 15px 15px 10px rgba(230, 111, 111, 0.5);  
+
+}
+

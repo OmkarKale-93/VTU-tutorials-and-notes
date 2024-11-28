@@ -1,0 +1,38 @@
+.note-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .note-details-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .note-details-container p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .note-details-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .error {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+  }

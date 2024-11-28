@@ -1,0 +1,99 @@
+.sidebar {  
+    width: 250px;  
+    background-color: #f5f2f2; /* Dark background for a modern feel */  
+    padding: 20px;  
+    height: calc(100vh - 60px); /* Adjust height to be below navbar */  
+    position: fixed;  
+    top: 30px; /* Position below the navbar */  
+    left: 0;  
+    transition: width 0.3s ease; /* Smooth transition for resizing */  
+    z-index: 10; /* Ensure sidebar stays on top */  
+    left: 0;
+  }  
+  
+  .sidebar-header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+  }  
+  
+  .sidebar-header h2 {   
+    color: #0b0b0b; /* White text */  
+  }  
+  
+  .sidebar-list {  
+    list-style-type: none;  
+    padding: 0;  
+  }  
+  
+  .sidebar-list li {  
+    margin-bottom: 15px;  
+  }  
+  
+  .sidebar-list a {  
+    display: block;  
+    padding: 10px 20px;  
+    color: #050505; /* White text */  
+    text-decoration: none;  
+    border-radius: 5px; /* Rounded corners */  
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */  
+  }  
+  
+  .sidebar-list a:hover {  
+    background-color: #333; /* Darker background on hover */  
+  }  
+  
+  .sidebar-list a i {  
+    margin-right: 10px;  
+  }  
+  
+  .sidebar-list a span { /* Style the text within the link */  
+    font-weight: 500; /* Bold font weight */  
+  }  
+  
+  .sidebar-user {  
+    text-align: center;  
+    margin-top: 30px;  
+    color: #030303; /* White text */  
+    font-size: 16px;  
+  }  
+  
+  .sidebar-user i {  
+    font-size: 24px;   
+    margin-bottom: 5px; /* Spacing between icon and name */  
+  }  
+  
+  /* Responsive Design for Smaller Screens */  
+  @media (max-width: 768px) {  
+    .sidebar {  
+      width: 60px; /* Collapse sidebar on smaller screens */  
+    }  
+  
+    .sidebar-list a span {  
+      display: none; /* Hide text in collapsed state */  
+    }  
+  }  
+  
+  @media (max-width: 768px) {   
+    .sidebar {  
+      width: 60px;  
+    }  
+  
+    .sidebar-list a span {  
+      display: none;  
+    }  
+  
+    .sidebar:hover {  
+      width: 250px;   
+    }  
+  }  
+  
+  /* Additional CSS for a better design */  
+  .sidebar-list li a:hover {  
+    background-color: #444;   
+  }  
+  
+  .sidebar-header {  
+    background-color: #f0eaea;   
+    border-bottom: 1px solid #333;   
+    padding: 10px 0;  
+  }

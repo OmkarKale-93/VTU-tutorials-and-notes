@@ -1,0 +1,52 @@
+.container-up {  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    min-height: 100vh;  
+    background-color: #f4f4f4;  
+  }  
+
+  
+
+  .head1 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+  }  
+
+  label {  
+    display: block;  
+    margin-bottom: 5px;  
+    font-weight: bold;  
+  }  
+
+  input[type="text"],  
+  input[type="file"],  
+  select {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ddd;  
+    border-radius: 3px;  
+    box-sizing: border-box;  
+  }  
+
+  .error {  
+    color: red;  
+    font-size: 14px;  
+    margin-bottom: 10px;  
+  }  
+
+  .sub-vid {  
+    background-color: #007bff;  
+    color: #fff;  
+    padding: 12px 20px;  
+    border: none;  
+    border-radius: 3px;  
+    cursor: pointer;  
+    width: 100%;  
+  }  
+
+  .sub-vid:hover {  
+    background-color: #0062cc;  
+  }  

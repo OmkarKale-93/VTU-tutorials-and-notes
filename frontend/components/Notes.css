@@ -1,0 +1,44 @@
+.notes-container {
+    padding: 20px;
+  }
+  
+  .notes {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .each-note {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .note-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Adjust as needed */
+  }
+  
+  .thumbnail {
+    width: auto;
+    height: 100%;
+    max-width: 100px; /* Adjust as needed */
+    border-radius: 4px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .error {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+  }
